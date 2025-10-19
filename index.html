@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properti Indah - Jual & Sewa Rumah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Untuk ikon -->
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-home"></i> Properti Indah</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="#listing"><i class="fas fa-list"></i> Listing</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Temukan Rumah Impian Anda Bersama Kami</h2>
+            <p>Jual, beli, dan sewa properti dengan mudah dan cepat. Kami hadir untuk mewujudkan impian hunian Anda.</p>
+            <a href="#listing" class="btn">Lihat Listing</a>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Properti Tersedia</p>
+                </div>
+                <div class="stat">
+                    <h3>10K+</h3>
+                    <p>Pelanggan Puas</p>
+                </div>
+                <div class="stat">
+                    <h3>5 Tahun</h3>
+                    <p>Pengalaman</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider">
+            <img src="https://picsum.photos/1200/400?random=1" alt="Hero Image 1">
+            <img src="https://picsum.photos/1200/400?random=2" alt="Hero Image 2">
+            <img src="https://picsum.photos/1200/400?random=3" alt="Hero Image 3">
+        </div>
+    </section>
+
+    <section id="listing" class="listing">
+        <h2>Properti Terbaru</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="rumah">Rumah</button>
+            <button class="filter-btn" data-filter="apartemen">Apartemen</button>
+            <button class="filter-btn" data-filter="villa">Villa</button>
+        </div>
+        <div class="property-container">
+            <div class="property-card" data-category="rumah">
+                <img src="https://picsum.photos/400/250?random=1" alt="Rumah 1">
+                <div class="card-content">
+                    <h3>Rumah Minimalis di Semarang</h3>
+                    <p class="price">Rp 850.000.000</p>
+                    <p>3 Kamar Tidur | 2 Kamar Mandi | 120 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 3</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-ruler-combined"></i> 120m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+            <div class="property-card" data-category="apartemen">
+                <img src="https://picsum.photos/400/250?random=2" alt="Apartemen 1">
+                <div class="card-content">
+                    <h3>Apartemen Mewah di Jakarta</h3>
+                    <p class="price">Rp 1.200.000.000</p>
+                    <p>2 Kamar Tidur | 1 Kamar Mandi | 90 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 2</span>
+                        <span><i class="fas fa-bath"></i> 1</span>
+                        <span><i class="fas fa-ruler-combined"></i> 90m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+            <div class="property-card" data-category="villa">
+                <img src="https://picsum.photos/400/250?random=3" alt="Villa 1">
+                <div class="card-content">
+                    <h3>Villa Nyaman di Bali</h3>
+                    <p class="price">Rp 2.500.000.000</p>
+                    <p>4 Kamar Tidur | 3 Kamar Mandi | 200 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 4</span>
+                        <span><i class="fas fa-bath"></i> 3</span>
+                        <span><i class="fas fa-ruler-combined"></i> 200m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+            <div class="property-card" data-category="rumah">
+                <img src="https://picsum.photos/400/250?random=4" alt="Rumah 2">
+                <div class="card-content">
+                    <h3>Rumah Klasik di Yogyakarta</h3>
+                    <p class="price">Rp 950.000.000</p>
+                    <p>4 Kamar Tidur | 3 Kamar Mandi | 150 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 4</span>
+                        <span><i class="fas fa-bath"></i> 3</span>
+                        <span><i class="fas fa-ruler-combined"></i> 150m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+            <div class="property-card" data-category="apartemen">
+                <img src="https://picsum.photos/400/250?random=5" alt="Apartemen 2">
+                <div class="card-content">
+                    <h3>Apartemen Modern di Surabaya</h3>
+                    <p class="price">Rp 1.500.000.000</p>
+                    <p>3 Kamar Tidur | 2 Kamar Mandi | 110 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 3</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-ruler-combined"></i> 110m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+            <div class="property-card" data-category="villa">
+                <img src="https://picsum.photos/400/250?random=6" alt="Villa 2">
+                <div class="card-content">
+                    <h3>Villa Pantai di Lombok</h3>
+                    <p class="price">Rp 3.000.000.000</p>
+                    <p>5 Kamar Tidur | 4 Kamar Mandi | 250 m²</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 5</span>
+                        <span><i class="fas fa-bath"></i> 4</span>
+                        <span><i class="fas fa-ruler-combined"></i> 250m²</span>
+                    </div>
+                    <a href="#" class="btn-detail">Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Tentang Kami</h2>
+            <p>Properti Indah adalah perusahaan real estate terpercaya yang telah membantu ribuan keluarga menemukan hunian impian mereka. Dengan pengalaman lebih dari 5 tahun, kami berkomitmen untuk memberikan layanan terbaik dalam jual beli dan sewa properti.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Terpercaya</h3>
+                    <p>Kami menjamin keamanan dan transparansi dalam setiap transaksi.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Cepat & Efisien</h3>
+                    <p>Proses pencarian dan transaksi properti dilakukan dengan cepat.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Tim Profesional</h3>
+                    <p>Tim ahli kami siap membantu Anda 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Apa Kata Pelanggan Kami</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Properti Indah membantu saya menemukan rumah impian dengan mudah. Layanan mereka luar biasa!"</p>
+                <cite>- Andi, Jakarta</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Proses sewa apartemen sangat cepat dan transparan. Terima kasih Properti Indah!"</p>
+                <cite>- Siti, Surabaya</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Villa yang saya beli melalui mereka sangat sesuai dengan ekspektasi. Rekomendasi!"</p>
+                <cite>- Budi, Bali</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Properti No. 123, Jakarta</p>
+                <p><i class="fas fa-phone"></i> +62 123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@propertiindah.com</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Properti Indah | Semua Hak Dilindungi</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Untuk interaktivitas -->
+</body>
+</html>
